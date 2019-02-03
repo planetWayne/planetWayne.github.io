@@ -20,5 +20,5 @@
 
 /* make the background colour lighter a tad*/
 .lighter:hover {
-  background-color: rgba(255,255,255,.1) !important;
+  background-color: rgba(255,255,255,.5) !important;
 }
