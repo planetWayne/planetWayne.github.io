@@ -13,7 +13,12 @@
  }
 
 
-/* make the background colour darker */
-.darker1:hover {
+/* make the background colour darker a tad*/
+.darker:hover {
   background-color: rgba(0,0,0,.1) !important;
+}
+
+/* make the background colour lighter a tad*/
+.lighter:hover {
+  background-color: rgba(255,255,255,.1) !important;
 }
