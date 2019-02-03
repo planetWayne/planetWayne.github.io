@@ -7,15 +7,16 @@
 
       <!--Import Google Icon Font-->
       <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
+
       <!--Import materialize.css-->
       <link type="text/css" rel="stylesheet" href="css/materialize.min.css"  media="screen,projection"/>
 
       <!--Let browser know website is optimized for mobile-->
       <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
 
-
       <!-- Custom Style for this site-->
-      <link href="css/style.css" type="text/css" rel="stylesheet" media="screen,projection"/>
+      <link href="css/myStyle.css" type="text/css" rel="stylesheet" media="screen,projection"/>
+
 
 
       <!-- if this isnt here then none of the scripting works! -->
@@ -28,17 +29,18 @@
         <div class="nav-wrapper container">
           <a id="logo-container" href="#" class="brand-logo"><i class="material-icons yellow-text darken-3" style="font-size: 50px">camera</i></a>
 
-          <ul class="right hide-on-med-and-down">
+          <ul class="right hide-on-small-and-down">
             <li><a href="#" class="white-text">Navbar Link</a></li>
             <li><a href="#" class="white-text">Navbar Link2</a></li>
 
-            <a class="dropdown-trigger btn-small tooltip yellow black-text" href="#" data-position="bottom" data-tooltip="A Tooltip for the menu" data-delay="50" data-target="MyMenu-Dropdown">My Menu<i class="material-icons right">arrow_drop_down</i></a>
+            <a class="dropdown-trigger btn-small yellow black-text" href="#" data-position="bottom" data-tooltip="A Tooltip for the menu" data-delay="50" data-target="MyMenu-Dropdown">My Menu<i class="material-icons right">arrow_drop_down</i></a>
 
             <ul id="MyMenu-Dropdown" class="dropdown-content yellow">
-              <li><a class="black-text"><i class="material-icons left small grey-text text-darken-5">edit</i>Eat</a></li>
-              <li><a class="black-text"><i class="material-icons left small grey-text text-darken-5">cake</i>Cake</a></li>
-              <li><a class="black-text"><i class="material-icons left small grey-text text-darken-5">whatshot</i>Bang!</a></li>
+              <li><a class="black-text"><i class="material-icons left pink-text">edit</i>Eat</a></li>
+              <li><a class="black-text"><i class="material-icons left pink-text">cake</i>Cake</a></li>
+              <li><a class="black-text"><i class="material-icons left pink-text">whatshot</i>Bang!</a></li>
             </ul>
+
 
 
           </ul>
@@ -92,7 +94,7 @@
           </div>
         </div>
         <div class="footer-copyright darken-5">
-          <div class="container">
+          <div class="container darken-5">
             Personal GitHub Site of <a class="brown-text text-lighten-3" href="http://planetWayne.com">planetWayne</a>&nbsp;:&nbsp;
             Made with <a class="brown-text text-lighten-3" href="http://materializecss.com">Materialize</a>
           </div>
@@ -104,7 +106,7 @@
         $(document).ready(function(){
           $('.dropdown-button').dropdown();
           $(".dropdown-trigger").dropdown();
-
+          $('.fixed-action-btn').floatingActionButton();
         });
       </script>
 
