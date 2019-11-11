@@ -32,14 +32,7 @@
 	padding-left: 30px !important; 
 	padding-right: 30px !important;
 	border-width: 2px;
-	border-color: purple;
+	border-color: blueviolet;
 	border-style: solid;
 
-}
-
-.MyCard {
-	card;
-	hoverable;
-	grey;
-	lighten-2;
 }
