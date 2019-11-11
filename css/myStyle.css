@@ -28,9 +28,9 @@
 .MyParallax-top{
 	background: rgba(209,196,233,.9);
 	border-radius: 0px; 
-	padding-left: 25px; 
-	padding-right: 25px;
-	border:	1px;
+	padding-left: 30px; 
+	padding-right: 30px;
+	border-width: 5px;
 	border-color: purple;
 
 }
