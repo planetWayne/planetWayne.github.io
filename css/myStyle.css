@@ -36,3 +36,10 @@
 	border-style: solid;
 
 }
+
+.MyCard {
+	card;
+	hoverable;
+	grey;
+	lighten-2;
+}
