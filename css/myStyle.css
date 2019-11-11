@@ -26,7 +26,8 @@
 
 /* Used by my parallax box to set the background and alpha channel */
 .MyParallax-top{
-	background: rgba(209,196,233,.9);
+	/*background: rgba(209,196,233,.9);*/
+	background: rgba(217,204,242,.95);
 	border-radius: 0px; 
 	padding-left: 30px !important; 
 	padding-right: 30px !important;
