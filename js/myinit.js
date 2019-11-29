@@ -4,5 +4,5 @@ $(document).ready(function(){
   $('.fixed-action-btn').floatingActionButton();
   $('.tooltipped').tooltip();
   $('.parallax').parallax();
-
+  $('.materialboxed').materialbox();
 });
